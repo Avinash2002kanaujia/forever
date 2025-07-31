@@ -17,7 +17,7 @@ connectCloudinary()
 // middlewares
 app.use(express.json())
 app.use(cors({
-    origin: ['https://full-stack-forever-frontend.vercel.app', 'http://localhost:5173'],
+    origin: ['https://forever-frontend-delta-one.vercel.app', 'http://localhost:5173'],
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true
 }))
