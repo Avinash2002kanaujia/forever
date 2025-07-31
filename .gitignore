@@ -1,0 +1,109 @@
+# ============================
+# 🔧 General Node.js Settings
+# ============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Lock files (pick one if you're using specific package manager)
+package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build directories
+dist/
+build/
+.cache/
+.next/
+
+# Temporary files
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*.DS_Store
+*.bak
+
+# OS-specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Windows-specific
+$RECYCLE.BIN/
+*.lnk
+*.stackdump
+
+# VSCode
+.vscode/
+
+# TypeScript
+*.tsbuildinfo
+
+# Coverage
+coverage/
+.nyc_output/
+
+# PM2 logs
+pids/
+*.pid
+*.seed
+*.pid.lock
+logs/
+*.log
+
+# MongoDB dump files
+dump/
+
+# React-specific (in case client is separate React app)
+client/node_modules/
+client/build/
+client/.env
+
+# Next.js
+.next/
+out/
+
+# Express-specific (if backend folder exists)
+server/node_modules/
+server/dist/
+server/.env
+
+# Uploads (if file uploads are stored locally)
+uploads/
+public/uploads/
+
+# Optional: ignore test snapshots
+__snapshots__/
+
+# Optional: Docker
+docker-compose.override.yml
+
+# Optional: ignore local database
+*.sqlite
+*.db
+
+# Mac-specific
+.DS_Store
+
+# Git
+.git/
+
+# Editor backups
+*.orig
+
+# Optional: Firebase/Netlify/Vercel/Render settings
+.firebase/
+.vercel/
+.netlify/
+.render/
